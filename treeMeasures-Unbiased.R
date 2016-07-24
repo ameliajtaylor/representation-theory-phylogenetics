@@ -4,6 +4,7 @@
 ### path is set to match where the file is found in my directory structure. 
 
 source("/Users/ataylor/research/colaboration/Tasmania/representation-theory-phylogenetics/unbiasedSquangleSquared-Jez.R")
+options(expressions = 10000)
 
 # Function for producing 2x2 markov matrices.
 mark <- function(a,b) matrix(c(1-a,a,b,1-b),2,2)
