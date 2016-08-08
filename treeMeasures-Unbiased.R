@@ -32,7 +32,7 @@ branch12.34 <- function(P) {
   
 }
 
-# Final function. Inital dist is (p,(1-p))
+# Final function. Inital root distribution is (p,(1-p))
 
 tree12.34 <- function(a5,b5,a1,b1,a2,b2,a3,b3,a4,b4,p){
   
